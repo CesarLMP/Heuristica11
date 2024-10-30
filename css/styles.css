@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0f7fa;
+}
+
+header {
+    background-color: #0288d1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    color: #01579b;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: #0288d1;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.6;
+    color: #424242;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    transition: none;
+}
+
+.social-icons img:hover {
+    transform: none;
+}
+
+#contacto {
+    margin-top: 20px;
+}
